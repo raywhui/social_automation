@@ -1,0 +1,23 @@
+{
+  "name": "social_automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "automate.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.85.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "eslint": "^4.19.1",
+    "mocha": "^5.2.0",
+    "mocha-generators": "^2.0.0",
+    "nightmare": "^3.0.1"
+  }
+}
